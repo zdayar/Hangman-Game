@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,6 @@
 </head>
 <body>
 
-<!-- Header -->
 <div class="container">
     <!-- Header -->
     <div class="row header">
@@ -30,28 +29,34 @@
 
     <!-- Main Content -->
     <div class="row">
-        <div class="col-md-5 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-8 text-center">
-            <h1>Press Any Letter To Start!</h1>
+        <!-- First column -->
+        <div class="col-md-5 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-10 text-center">
+            <h1>Press A Letter To Start!</h1>
 
             <h2>Wins</h2>
-            <div id="win-count">3</div>
+            <div id="win-count">0</div>
 
             <h2>Current Word</h2>
-            <div id="current-word"><span>__O__</span></div>
+            <div id="current-word">None</div>
 
             <h2># Guesses Remaining</h2>
-            <div id="remainining-guesses">8</div>
+            <div id="remaining-guesses">12</div>
 
             <h2>Already Guessed</h2>
-            <div id="incorrect-guesses">B, C</div>
+            <div id="incorrect-guesses"></div>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-4">
-            <div id="instrument-pic">
-                <img src="assets/images/big-band-clip-art.png" class="img-fluid">
+        <!-- second column - image and audio and status message -->
+        <div class="col-md-3 col-sm-4 col-xs-1">
+            <div>
+                <img id="instrument-pic" src="assets/images/big-band-clip-art.png" class="img-fluid">
             </div>
 
-            <audio id="instrument-audio" src="assets/audio/LouieLouie.mp3"></audio>
+            <div id="status-text"></div>
+
+            <div>
+                <audio id="instrument-audio" src="assets/audio/LouieLouie.mp3"></audio>
+            </div>
         </div>
     </div>
 </div>

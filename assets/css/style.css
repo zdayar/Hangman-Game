@@ -24,11 +24,11 @@ h2 {
     color: #531f83;
 }
 
+/* Header and container styles */
 .header {
     margin-bottom: 20px;
 }
 
 .container {
-    width: 100%;
+    width: auto;
 }
-
