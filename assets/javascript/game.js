@@ -63,7 +63,7 @@ $(document).ready(function () {
                 "http://www.beginband.com/instruments/sax.jpg",
                 "http://www.beginband.com/sndclips/sax.mp3");
 
-            this.addInstrument("BELLS",
+            this.addInstrument("XYLOPHONE",
                 "http://www.beginband.com/instruments/bells.jpg",
                 "http://www.beginband.com/sndclips/bells.mp3");
 
